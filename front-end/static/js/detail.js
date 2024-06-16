@@ -1,6 +1,6 @@
 import { filterObject, ingredientsInputBoxes } from "./utils.js";
 
-const API_URL = "http://localhost:6969/api/recipes";
+const API_URL = "http://localhost:4000/api/recipes";
 buildUI();
 
 async function buildUI() {
