@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recept Web</title>
+
+  <link rel="stylesheet" href="static/CSS/reset.css">
+  <link rel="stylesheet" href="static/CSS/main.css">
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="static/media/images/logo.jpg" alt="logo">
+    <nav>
+      <ul>
+        <li>
+          <div id="categories" class="filter">
+            <p>Categories</p>
+            <img src="static/media/images/chevron-right.svg"
+              alt="an arrow that indicates if the dropdown is open or closed">
+            <div id="categories-content" class="filter_content"></div>
+          </div>
+          <div id="ingredients" class="filter">
+            <p>ingredients</p>
+            <img src="static/media/images/chevron-right.svg"
+              alt="an arrow that indicates if the dropdown is open or closed">
+            <div id="ingredients-content" class="filter_content"></div>
+          </div>
+          <div id="difficulty" class="filter">
+            <p>difficulty</p>
+            <img src="static/media/images/chevron-right.svg" alt="an arrow that indicates if the dropdown is open or closed">
+            <div id="difficulty-content" class="filter_content"></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <img src="static/media/images/hamburger.svg" alt="an image for a menu">
+  </header>
+  <main>
+    <section id="recipes"></section>
+    <section>
+      <form for="Add_Recipe" id="Add_Recipe">
+        <h2>Recipe u would want to add</h2>
+
+        <div>
+          <p>name of recipe:</p>
+          <input type="text" id="title" name="title" placeholder="recipe name" required>
+        </div>
+        <div>
+          <p>Category of the recipe:</p>
+          <input type="text" id="category" name="category" placeholder="category" required>
+        </div>
+        <div>
+          <p>The time it takes to cook (in minutes):</p>
+          <input type="number" id="cookingTime" name="cookingTime" placeholder="cooking time" required>
+        </div>
+        <div>
+          <p>The difficulty of the recipe:</p>
+          <input type="text" id="difficulty" name="difficulty" placeholder="difficulty" required>
+        </div>
+        <div>
+          <p>For how many people is this recipe:</p><input type="number" id="servings" name="servings" placeholder="servings" required>
+        </div>
+        <div>
+          <p>instructions for making the recipe:</p>
+          <input type="text" id="instructions" name="instructions" placeholder="instructions" required>
+        </div>
+        <div id="ingredients_div">
+          <p>ingredients:</p>
+          <input type="text" class="ingredient_name" name="ingredient_name" placeholder="name of ingredient" required>
+          <input type="text" class="ingredient_amount" name="ingredient_amount" placeholder="amount" required>
+        </div>
+        <button id="New_Recipe_btn">Submit</button>
+        <h3 id="message_Added_Recipe"></h3>
+      </form>
+    </section>
+  </main>
+  <script src="static/js/build.js"></script>
+</body>
+</html>

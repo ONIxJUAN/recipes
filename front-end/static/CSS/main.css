@@ -1,0 +1,113 @@
+header {
+  background-color: hsl(27, 94%, 48%);
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header li {
+  list-style-type: none;
+}
+
+header img#logo {
+  width: 10rem;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter img {
+  width: 1.5rem;
+}
+
+.filter_content {
+  position: absolute;
+  top: 21%;
+  left: 0;
+  display: none;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem;
+  background-color: hsl(27, 94%, 47%);
+}
+
+.filter_content.visible {
+  display: flex;
+}
+
+.filter.visible img {
+  rotate: 90deg;
+}
+
+nav ul li {
+  display: flex;
+  gap: 1rem;
+}
+
+header img {
+  width: 4rem;
+}
+
+#recipes {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1rem auto;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 20rem;
+}
+
+.card img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a.card {
+  color: black;
+  text-decoration: none;
+}
+
+#recipe_details {
+  margin: 5rem;
+}
+
+#recipe_details img {
+  width: 30rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+form input,
+form button {
+  min-width: 15rem;
+}
+
+form input#instructions {
+  min-width: 40rem;
+}
+
+form div#ingredients_div {
+  width: 31rem;
+}
+
+form div#ingredients_div input {
+  margin: 0.1rem;
+}
+
+#delete_recipe {
+  margin:0 0 2rem 3rem;
+}

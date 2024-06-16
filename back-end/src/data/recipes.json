@@ -1,0 +1,339 @@
+[
+  {
+    "id": 1,
+    "title": "Pasta Carbonara",
+    "category": "Pasta",
+    "ingredients": [
+      { "name": "spaghetti", "amount": "200g" },
+      { "name": "eieren", "amount": "2" },
+      { "name": "spek", "amount": "100g" },
+      { "name": "Parmezaanse kaas", "amount": "50g" }
+    ],
+    "image": "Pasta-Carbonara.jpg",
+    "instructions": "Kook de spaghetti en bak het spek. Meng de eieren en kaas. Giet de saus over de spaghetti en meng met spek.",
+    "cookingTime": 20,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": 2,
+    "title": "Chicken Parmesan",
+    "category": "Poultry",
+    "ingredients": [
+      { "name": "chicken breasts", "amount": "2" },
+      { "name": "bread crumbs", "amount": "1 cup" },
+      { "name": "tomato sauce", "amount": "1 cup" },
+      { "name": "mozzarella cheese", "amount": "1 cup" },
+      { "name": "Parmesan cheese", "amount": "1/2 cup" }
+    ],
+    "image": "spaghetti bolognese.jpg",
+    "instructions": "Coat chicken in bread crumbs, bake until golden. Top with tomato sauce, mozzarella, and Parmesan. Bake until cheese melts.",
+    "cookingTime": 30,
+    "difficulty": "Moderate",
+    "servings": 4
+  },
+  {
+    "id": 3,
+    "title": "Vegetable Stir-Fry",
+    "category": "Vegetarian",
+    "ingredients": [
+      { "name": "bell peppers", "amount": "2" },
+      { "name": "broccoli", "amount": "1 head" },
+      { "name": "carrots", "amount": "2" },
+      { "name": "soy sauce", "amount": "2 tbsp" },
+      { "name": "garlic", "amount": "3 cloves" }
+    ],
+    "image": "Vegetarian Stir Fry.jpg",
+    "instructions": "Stir-fry veggies in oil. Add garlic, soy sauce. Cook until tender. Serve hot.",
+    "cookingTime": 25,
+    "difficulty": "Easy",
+    "servings": 3
+  },
+  {
+    "id": 4,
+    "title": "Classic Caesar Salad",
+    "category": "Salad",
+    "ingredients": [
+      { "name": "romaine lettuce", "amount": "1 head" },
+      { "name": "Parmesan cheese", "amount": "1/2 cup" },
+      { "name": "croutons", "amount": "1 cup" },
+      { "name": "Caesar dressing", "amount": "1/4 cup" }
+    ],
+    "image": "Chicken Caesar Salad.jpg",
+    "instructions": "Toss lettuce, croutons, and Parmesan with dressing. Serve chilled.",
+    "cookingTime": 15,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": 5,
+    "title": "Beef Tacos",
+    "category": "Mexican",
+    "ingredients": [
+      { "name": "ground beef", "amount": "500g" },
+      { "name": "taco seasoning", "amount": "1 packet" },
+      { "name": "taco shells", "amount": "8" },
+      { "name": "lettuce", "amount": "1 cup" },
+      { "name": "cheddar cheese", "amount": "1/2 cup" }
+    ],
+    "image": "Beef-Tacos.jpg",
+    "instructions": "Cook beef with seasoning. Fill taco shells. Top with lettuce, cheese.",
+    "cookingTime": 25,
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 6,
+    "title": "Mushroom Risotto",
+    "category": "Italian",
+    "ingredients": [
+      { "name": "arborio rice", "amount": "1 cup" },
+      { "name": "mushrooms", "amount": "200g" },
+      { "name": "onion", "amount": "1" },
+      { "name": "vegetable broth", "amount": "4 cups" },
+      { "name": "Parmesan cheese", "amount": "1/2 cup" }
+    ],
+    "image": "Mushroom-Risotto.jpg",
+    "instructions": "Sauté onion, mushrooms. Add rice, broth gradually. Stir until creamy. Add Parmesan.",
+    "cookingTime": 40,
+    "difficulty": "Moderate",
+    "servings": 3
+  },
+  {
+    "id": 7,
+    "title": "Honey Garlic Glazed Salmon",
+    "category": "Seafood",
+    "ingredients": [
+      { "name": "salmon fillets", "amount": "4" },
+      { "name": "honey", "amount": "3 tbsp" },
+      { "name": "soy sauce", "amount": "2 tbsp" },
+      { "name": "garlic", "amount": "4 cloves" }
+    ],
+    "image": "Honey-Garlic-Glazed-Salmon.jpg",
+    "instructions": "Mix honey, soy sauce, garlic. Brush over salmon. Bake until cooked.",
+    "cookingTime": 20,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": 8,
+    "title": "Spinach and Feta Stuffed Chicken",
+    "category": "Poultry",
+    "ingredients": [
+      { "name": "chicken breasts", "amount": "2" },
+      { "name": "spinach", "amount": "2 cups" },
+      { "name": "feta cheese", "amount": "1/2 cup" },
+      { "name": "garlic powder", "amount": "1 tsp" },
+      { "name": "olive oil", "amount": "2 tbsp" }
+    ],
+    "image": "Spinach-and-Feta-Stuffed-Chicken.jpg",
+    "instructions": "Mix spinach, feta, garlic. Stuff chicken. Bake until done.",
+    "cookingTime": 35,
+    "difficulty": "Moderate",
+    "servings": 2
+  },
+  {
+    "id": 9,
+    "title": "Tomato Basil Bruschetta",
+    "category": "Appetizer",
+    "ingredients": [
+      { "name": "baguette", "amount": "1" },
+      { "name": "tomatoes", "amount": "4" },
+      { "name": "fresh basil", "amount": "1/2 cup" },
+      { "name": "garlic", "amount": "2 cloves" },
+      { "name": "olive oil", "amount": "3 tbsp" }
+    ],
+    "image": "Tomato-Basil-Bruschetta.jpg",
+    "instructions": "Mix diced tomatoes, basil, garlic, olive oil. Spoon over toasted baguette slices.",
+    "cookingTime": 20,
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 10,
+    "title": "Homemade Pizza",
+    "category": "Italian",
+    "ingredients": [
+      { "name": "pizza dough", "amount": "1 ball" },
+      { "name": "pizza sauce", "amount": "1 cup" },
+      { "name": "mozzarella cheese", "amount": "1 cup" },
+      { "name": "pepperoni", "amount": "1/2 cup" },
+      { "name": "bell peppers", "amount": "1" }
+    ],
+    "image": "Homemade-Pizza.jpg",
+    "instructions": "Spread sauce on dough, top with cheese, toppings. Bake until crust is golden.",
+    "cookingTime": 30,
+    "difficulty": "Moderate",
+    "servings": 4
+  },
+  {
+    "id": 11,
+    "title": "Chicken Caesar Salad",
+    "category": "Salad",
+    "ingredients": [
+      { "name": "romaine lettuce", "amount": "1 head" },
+      { "name": "cooked chicken", "amount": "1 cup" },
+      { "name": "Parmesan cheese", "amount": "1/2 cup" },
+      { "name": "Caesar dressing", "amount": "1/4 cup" },
+      { "name": "croutons", "amount": "1/2 cup" }
+    ],
+    "image": "Chicken Caesar Salad.jpg",
+    "instructions": "Toss lettuce, chicken, croutons, Parmesan with dressing. Serve chilled.",
+    "cookingTime": 20,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": 12,
+    "title": "Shrimp Scampi",
+    "category": "Seafood",
+    "ingredients": [
+      { "name": "shrimp", "amount": "500g" },
+      { "name": "butter", "amount": "1/2 cup" },
+      { "name": "garlic", "amount": "4 cloves" },
+      { "name": "lemon juice", "amount": "2 tbsp" },
+      { "name": "parsley", "amount": "1/4 cup" }
+    ],
+    "image": "Shrimp-Scampi.jpg",
+    "instructions": "Sauté shrimp, garlic in butter. Add lemon juice, parsley. Cook until shrimp is pink.",
+    "cookingTime": 25,
+    "difficulty": "Easy",
+    "servings": 3
+  },
+  {
+    "id": 13,
+    "title": "Vegetable Lasagna",
+    "category": "Italian",
+    "ingredients": [
+      { "name": "lasagna noodles", "amount": "9" },
+      { "name": "zucchini", "amount": "1" },
+      { "name": "yellow squash", "amount": "1" },
+      { "name": "spinach", "amount": "2 cups" },
+      { "name": "ricotta cheese", "amount": "1 cup" }
+    ],
+    "image": "Vegetable-Lasagna.jpg",
+    "instructions": "Layer noodles, veggies, ricotta. Bake until bubbly.",
+    "cookingTime": 50,
+    "difficulty": "Moderate",
+    "servings": 6
+  },
+  {
+    "id": 14,
+    "title": "Lemon Garlic Roast Chicken",
+    "category": "Poultry",
+    "ingredients": [
+      { "name": "whole chicken", "amount": "1" },
+      { "name": "lemon", "amount": "1" },
+      { "name": "garlic", "amount": "6 cloves" },
+      { "name": "olive oil", "amount": "3 tbsp" },
+      { "name": "thyme", "amount": "2 sprigs" }
+    ],
+    "image": "Lemon-Garlic-Roast-Chicken.jpg",
+    "instructions": "Rub chicken with lemon, garlic, thyme, olive oil. Roast until golden.",
+    "cookingTime": 75,
+    "difficulty": "Moderate",
+    "servings": 4
+  },
+  {
+    "id": 15,
+    "title": "Pesto Pasta",
+    "category": "Pasta",
+    "ingredients": [
+      { "name": "pasta", "amount": "300g" },
+      { "name": "basil pesto", "amount": "1/2 cup" },
+      { "name": "cherry tomatoes", "amount": "1 cup" },
+      { "name": "pine nuts", "amount": "1/4 cup" },
+      { "name": "Parmesan cheese", "amount": "1/4 cup" }
+    ],
+    "image": "Pesto-Pasta.jpg",
+    "instructions": "Cook pasta. Mix with pesto, tomatoes, pine nuts. Top with Parmesan.",
+    "cookingTime": 25,
+    "difficulty": "Easy",
+    "servings": 3
+  },
+  {
+    "id": 16,
+    "title": "Beef Stroganoff",
+    "category": "Beef",
+    "ingredients": [
+      { "name": "beef strips", "amount": "500g" },
+      { "name": "onion", "amount": "1" },
+      { "name": "mushrooms", "amount": "200g" },
+      { "name": "sour cream", "amount": "1 cup" },
+      { "name": "beef broth", "amount": "1/2 cup" }
+    ],
+    "image": "Beef-Stroganoff.jpg",
+    "instructions": "Sauté beef, onion, mushrooms. Add broth, simmer. Stir in sour cream. Serve over noodles.",
+    "cookingTime": 40,
+    "difficulty": "Moderate",
+    "servings": 4
+  },
+  {
+    "id": 17,
+    "title": "Teriyaki Tofu Stir-Fry",
+    "category": "Vegetarian",
+    "ingredients": [
+      { "name": "tofu", "amount": "1 block" },
+      { "name": "teriyaki sauce", "amount": "1/4 cup" },
+      { "name": "bell peppers", "amount": "2" },
+      { "name": "snow peas", "amount": "1 cup" },
+      { "name": "ginger", "amount": "1 tsp" }
+    ],
+    "image": "Teriyaki-Tofu-Stir-Fry.jpg",
+    "instructions": "Stir-fry tofu, veggies. Add teriyaki sauce, ginger. Cook until heated through.",
+    "cookingTime": 30,
+    "difficulty": "Easy",
+    "servings": 3
+  },
+  {
+    "id": 18,
+    "title": "Homemade Burgers",
+    "category": "American",
+    "ingredients": [
+      { "name": "ground beef", "amount": "500g" },
+      { "name": "burger buns", "amount": "4" },
+      { "name": "cheddar cheese", "amount": "4 slices" },
+      { "name": "lettuce", "amount": "4 leaves" },
+      { "name": "tomato", "amount": "1" }
+    ],
+    "image": "Homemade-Burgers.jpg",
+    "instructions": "Form beef into patties. Grill until cooked. Assemble burgers with toppings.",
+    "cookingTime": 25,
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 19,
+    "title": "Ratatouille",
+    "category": "Vegetarian",
+    "ingredients": [
+      { "name": "eggplant", "amount": "1" },
+      { "name": "zucchini", "amount": "1" },
+      { "name": "bell peppers", "amount": "2" },
+      { "name": "onion", "amount": "1" },
+      { "name": "tomatoes", "amount": "2" }
+    ],
+    "image": "Ratatouille.jpg",
+    "instructions": "Slice veggies. Layer in baking dish. Bake until tender.",
+    "cookingTime": 45,
+    "difficulty": "Easy",
+    "servings": 3
+  },
+  {
+    "id": 20,
+    "title": "Lemon Garlic Shrimp Pasta",
+    "category": "Seafood",
+    "ingredients": [
+      { "name": "shrimp", "amount": "300g" },
+      { "name": "pasta", "amount": "250g" },
+      { "name": "lemon zest", "amount": "2 tsp" },
+      { "name": "garlic", "amount": "3 cloves" },
+      { "name": "parsley", "amount": "1/4 cup" }
+    ],
+    "image": "Lemon-Garlic-Shrimp-Pasta.jpg",
+    "instructions": "Cook pasta. Sauté shrimp, garlic. Toss with pasta, lemon zest, parsley.",
+    "cookingTime": 30,
+    "difficulty": "Easy",
+    "servings": 4
+  }
+]

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>recipe</title>
+  
+  <link rel="stylesheet" href="static/CSS/reset.css">
+  <link rel="stylesheet" href="static/CSS/main.css">
+</head>
+<body>
+  <header>
+    <a href="index.html"><img id="logo" src="static/media/images/logo.jpg" alt="logo"></a>
+    <img src="static/media/images/hamburger.svg" alt="an image for a menu">
+  </header>
+  <main>
+    <section id="recipe_details" class=""></section>
+    <section>
+      <form for="Edit_Recipe" id="Edit_Recipe">
+        <h2>Recipe u would want to change</h2>
+        <div>
+          <p>title of the recipe:</p>
+          <input type="text" id="recipe_title" name="title" placeholder="recipe title">
+        </div>
+        <div>
+          <p>Category of the recipe:</p>
+          <input type="text" id="category" name="category" placeholder="category">
+        </div>
+        <div>
+          <p>The time it takes to cook (in minutes):</p>
+          <input type="number" id="cookingTime" name="cookingTime" placeholder="cooking time">
+        </div>
+        <div>
+          <p>The difficulty of the recipe:</p>
+          <input type="text" id="difficulty" name="difficulty" placeholder="difficulty">
+        </div>
+        <div>
+          <p>For how many people is this recipe:</p><input type="number" id="servings" name="servings" placeholder="servings">
+        </div>
+        <div>
+          <p>instructions for making the recipe:</p>
+          <input type="text" id="instructions" name="instructions" placeholder="instructions">
+        </div>
+        <div id="ingredients_div">
+          <p>ingredients:</p>
+          <input type="text" class="ingredient_name" name="ingredient_name" placeholder="name of ingredient">
+          <input type="text" class="ingredient_amount" name="ingredient_amount" placeholder="amount">
+        </div>
+        <button id="Edit_Recipe_btn">Submit</button>
+        <h3 id="message_Edited_recipe"></h3>
+      </form>
+      <button href="index.html" id="delete_recipe">Delete recipe</button>
+    </section>
+  </main>
+  <script src="static/js/detail.js" type="module"></script>
+</body>
+</html>
